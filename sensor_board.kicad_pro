@@ -972,16 +972,16 @@
       {
         "filename": "sensor_board.kicad_sch",
         "name": "sensor_board",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR13,D5",
     "variants": []
   },
   "sheets": [
     [
       "380dbfce-58ed-47ea-a57e-d1c885ddf8f7",
-      "Root"
+      "sensor_board"
     ]
   ],
   "text_variables": {},
