@@ -1,4 +1,4 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "WaterNet26 Footprints")(type "KiCad")(uri "${KIPRJMOD}/../../WaterNet26_Library/WaterNet26.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "WaterNet26 Footprints") (type "KiCad") (uri "${KIPRJMOD}/../../parts_lib/WaterNet26.pretty") (options "") (descr ""))
 )

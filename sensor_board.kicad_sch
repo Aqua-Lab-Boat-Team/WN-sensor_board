@@ -487,30 +487,28 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -10.16 13.7 0)
+			(property "Reference" "U1"
+				(at 0 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "MAX14933ASE_T"
-				(at -10.16 -16.7 0)
+				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "MAX14933ASE_T:SOIC127P600X175-16N"
-				(at 0 0 0)
+				(at -2.286 -13.716 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -533,7 +531,7 @@
 				)
 			)
 			(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
-				(at 0 0 0)
+				(at -0.508 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -557,7 +555,7 @@
 				)
 			)
 			(property "PACKAGE" "SOIC-16 Maxim"
-				(at 0 0 0)
+				(at 0.254 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -569,7 +567,7 @@
 				)
 			)
 			(property "PRICE" "None"
-				(at 0 0 0)
+				(at -0.762 -12.446 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -593,7 +591,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
-				(at 0 0 0)
+				(at -1.016 -12.954 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -605,7 +603,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 0 0 0)
+				(at 0.254 -9.398 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -617,7 +615,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
-				(at 0 0 0)
+				(at -1.524 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -629,7 +627,7 @@
 				)
 			)
 			(property "MP" "MAX14933ASE+T"
-				(at 0 0 0)
+				(at -0.254 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -665,7 +663,7 @@
 				)
 			)
 			(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
-				(at 0 0 0)
+				(at 0.508 -7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -674,12 +672,62 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+				)
+			)
+			(property "Height" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Name" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Part_Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "MAX14933ASE_T_1_0_0"
 				(rectangle
-					(start -10.16 -12.7)
-					(end 10.16 12.7)
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -778,25 +826,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(hide yes)
-					(name "GNDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -15.24 -5.08 0)
 					(length 5.08)
@@ -854,7 +883,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 0 180)
+					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "I/OB2"
 						(effects
@@ -926,7 +955,28 @@
 						)
 					)
 				)
-				(pin power_in line
+			)
+			(symbol "MAX14933ASE_T_1_1_0"
+				(pin passive line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 15.24 -10.16 180)
 					(length 5.08)
 					(hide yes)
@@ -948,7 +998,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MAX14933ASE_T_2"
+		(symbol "MAX14933ASE_T_4"
 			(pin_names
 				(offset 1.016)
 			)
@@ -957,30 +1007,28 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -10.16 13.7 0)
+			(property "Reference" "U1"
+				(at 0 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "MAX14933ASE_T"
-				(at -10.16 -16.7 0)
+				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "MAX14933ASE_T:SOIC127P600X175-16N"
-				(at 0 0 0)
+				(at -2.286 -13.716 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1003,7 +1051,7 @@
 				)
 			)
 			(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
-				(at 0 0 0)
+				(at -0.508 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1027,7 +1075,7 @@
 				)
 			)
 			(property "PACKAGE" "SOIC-16 Maxim"
-				(at 0 0 0)
+				(at 0.254 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1039,7 +1087,7 @@
 				)
 			)
 			(property "PRICE" "None"
-				(at 0 0 0)
+				(at -0.762 -12.446 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1063,7 +1111,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
-				(at 0 0 0)
+				(at -1.016 -12.954 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1075,7 +1123,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 0 0 0)
+				(at 0.254 -9.398 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1087,7 +1135,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
-				(at 0 0 0)
+				(at -1.524 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1099,7 +1147,7 @@
 				)
 			)
 			(property "MP" "MAX14933ASE+T"
-				(at 0 0 0)
+				(at -0.254 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1135,7 +1183,7 @@
 				)
 			)
 			(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
-				(at 0 0 0)
+				(at 0.508 -7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1146,10 +1194,60 @@
 					(justify bottom)
 				)
 			)
-			(symbol "MAX14933ASE_T_2_0_0"
+			(property "Height" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Name" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Part_Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MAX14933ASE_T_4_0_0"
 				(rectangle
-					(start -10.16 -12.7)
-					(end 10.16 12.7)
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1248,25 +1346,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(hide yes)
-					(name "GNDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -15.24 -5.08 0)
 					(length 5.08)
@@ -1324,7 +1403,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 0 180)
+					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "I/OB2"
 						(effects
@@ -1396,329 +1475,9 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 -10.16 180)
-					(length 5.08)
-					(hide yes)
-					(name "GNDB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
-			(embedded_fonts no)
-		)
-		(symbol "MAX14933ASE_T_3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -10.16 13.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "MAX14933ASE_T"
-				(at -10.16 -16.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "MAX14933ASE_T:SOIC127P600X175-16N"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MF" "Analog Devices"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PACKAGE" "SOIC-16 Maxim"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PRICE" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "SOIC-16 Maxim"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "MAX14933ASE+T"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "AVAILABILITY" "Unavailable"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "MAX14933ASE_T_3_0_0"
-				(rectangle
-					(start -10.16 -12.7)
-					(end 10.16 12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "GNDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
+			(symbol "MAX14933ASE_T_4_1_0"
 				(pin passive line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "I.C."
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "VDDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 2.54 0)
-					(length 5.08)
-					(name "I/OA1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "I/OA2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 15.24 -7.62 180)
 					(length 5.08)
 					(hide yes)
@@ -1738,135 +1497,6 @@
 					)
 				)
 				(pin passive line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(hide yes)
-					(name "I.C."
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -10.16 180)
-					(length 5.08)
-					(name "GNDB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(hide yes)
-					(name "I.C."
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "I/OB2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "I/OB1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "VDDB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(hide yes)
-					(name "I.C."
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 15.24 -10.16 180)
 					(length 5.08)
 					(hide yes)
@@ -9260,30 +8890,28 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -10.16 13.7 0)
+			(property "Reference" "U1"
+				(at 0 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "MAX14933ASE_T"
-				(at -10.16 -16.7 0)
+				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "MAX14933ASE_T:SOIC127P600X175-16N"
-				(at 0 0 0)
+				(at -2.286 -13.716 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9306,7 +8934,7 @@
 				)
 			)
 			(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
-				(at 0 0 0)
+				(at -0.508 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9330,7 +8958,7 @@
 				)
 			)
 			(property "PACKAGE" "SOIC-16 Maxim"
-				(at 0 0 0)
+				(at 0.254 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9342,7 +8970,7 @@
 				)
 			)
 			(property "PRICE" "None"
-				(at 0 0 0)
+				(at -0.762 -12.446 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9366,7 +8994,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
-				(at 0 0 0)
+				(at -1.016 -12.954 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9378,7 +9006,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 0 0 0)
+				(at 0.254 -9.398 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9390,7 +9018,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
-				(at 0 0 0)
+				(at -1.524 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9402,7 +9030,7 @@
 				)
 			)
 			(property "MP" "MAX14933ASE+T"
-				(at 0 0 0)
+				(at -0.254 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9438,7 +9066,7 @@
 				)
 			)
 			(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
-				(at 0 0 0)
+				(at 0.508 -7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9449,10 +9077,60 @@
 					(justify bottom)
 				)
 			)
+			(property "Height" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Name" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer_Part_Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "MAX14933ASE_T_0_0"
 				(rectangle
-					(start -10.16 -12.7)
-					(end 10.16 12.7)
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -9551,25 +9229,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(hide yes)
-					(name "GNDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -15.24 -5.08 0)
 					(length 5.08)
@@ -9627,7 +9286,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 0 180)
+					(at 15.24 -2.54 180)
 					(length 5.08)
 					(name "I/OB2"
 						(effects
@@ -9699,7 +9358,28 @@
 						)
 					)
 				)
-				(pin power_in line
+			)
+			(symbol "MAX14933ASE_T_1_0"
+				(pin passive line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 15.24 -10.16 180)
 					(length 5.08)
 					(hide yes)
@@ -15314,16 +14994,16 @@
 		(uuid "db1f46b6-096e-4b8a-a234-1b4cff43bad8")
 	)
 	(junction
-		(at 102.87 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02d5e088-2606-4380-9686-ff2ae0859de4")
-	)
-	(junction
 		(at 190.5 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0653fcab-61ab-4a48-b4f5-8736bec4b62e")
+	)
+	(junction
+		(at 303.53 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07153371-338e-4b91-b9a5-96dd299f36a3")
 	)
 	(junction
 		(at 455.93 273.05)
@@ -15368,16 +15048,22 @@
 		(uuid "190b530e-576c-40d8-9c28-b369706bd8a1")
 	)
 	(junction
+		(at 139.7 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ad225ef-ad3a-468d-99f7-ae1c30e084ff")
+	)
+	(junction
 		(at 168.91 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c717f89-a7ca-4b51-8258-d8575fed5e77")
 	)
 	(junction
-		(at 102.87 181.61)
+		(at 285.75 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d9b025f-dcd2-4437-8a8a-32b994c32e77")
+		(uuid "1e9b0509-8175-4fbb-b3a0-5c2c52f26d64")
 	)
 	(junction
 		(at 72.39 541.02)
@@ -15392,16 +15078,16 @@
 		(uuid "21ed4fdf-3012-43b0-a19c-3e7dfeeb9e87")
 	)
 	(junction
+		(at 327.66 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2566b7a5-f4f5-4192-96c0-f46b09371457")
+	)
+	(junction
 		(at 318.77 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "293460e5-8539-4263-a40c-503395e6485d")
-	)
-	(junction
-		(at 303.53 306.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b4a94d7-cb16-4a98-9c6d-99a126d2348a")
 	)
 	(junction
 		(at 416.56 92.71)
@@ -15416,10 +15102,10 @@
 		(uuid "2e0ed6de-b6b9-409b-ad2b-e4cd8108a10b")
 	)
 	(junction
-		(at 255.27 171.45)
+		(at 100.33 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "325680ba-f54f-44d9-9d0f-a32252c78f59")
+		(uuid "31e9d340-b963-4d3a-a911-35dcad5d0a2b")
 	)
 	(junction
 		(at 382.27 295.91)
@@ -15432,6 +15118,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33e825d0-f139-49b3-9d02-6ccaaad4dbee")
+	)
+	(junction
+		(at 86.36 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34c82688-6b17-4cf0-a3c0-3ac4b507d729")
 	)
 	(junction
 		(at 85.09 406.4)
@@ -15464,12 +15156,6 @@
 		(uuid "4139ded0-ed7e-4432-aed5-b51b79458d43")
 	)
 	(junction
-		(at 102.87 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4153bb7d-48cd-4935-9802-fb466a4da61d")
-	)
-	(junction
 		(at 78.74 434.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15488,10 +15174,10 @@
 		(uuid "47e5e683-2c04-4873-a8b0-f5780cc8ca91")
 	)
 	(junction
-		(at 255.27 283.21)
+		(at 87.63 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4b2f416f-5ae2-4ac9-acb5-1b6279cbde1e")
+		(uuid "4b135128-b64f-4010-bcf7-3a33943b2188")
 	)
 	(junction
 		(at 64.77 35.56)
@@ -15510,6 +15196,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ff86efd-cceb-4fae-87bb-02ea0317fffc")
+	)
+	(junction
+		(at 127 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51cfbead-82b1-4716-9776-620676215ae6")
 	)
 	(junction
 		(at 354.33 383.54)
@@ -15602,10 +15294,28 @@
 		(uuid "6a367ee7-84d5-49b3-bb3e-9036a70b96bf")
 	)
 	(junction
+		(at 288.29 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a6eb1a6-8258-41e7-a2cc-e5085c7f5bff")
+	)
+	(junction
+		(at 339.09 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a72bcda-e70e-49b5-95bc-44e9f98a1d84")
+	)
+	(junction
 		(at 222.25 314.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c24335a-e2cc-48e2-94fc-15356b8a26ef")
+	)
+	(junction
+		(at 85.09 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c76f2fc-60c8-4662-afd4-ef50d0c873fb")
 	)
 	(junction
 		(at 114.3 417.83)
@@ -15624,6 +15334,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ec85ec2-6cd7-4577-8c04-2dac62a55cf4")
+	)
+	(junction
+		(at 339.09 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f43133c-e80e-4aa4-8177-3cf65a5d02a8")
 	)
 	(junction
 		(at 146.05 90.17)
@@ -15668,6 +15384,12 @@
 		(uuid "755b5ac4-f964-4c28-ab08-7dbaf1cd7222")
 	)
 	(junction
+		(at 85.09 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "764abcec-b03f-4c15-8751-4f302a603723")
+	)
+	(junction
 		(at 99.06 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15680,28 +15402,10 @@
 		(uuid "76e98eb9-8081-4bfd-8b0c-8ea941fbbf32")
 	)
 	(junction
-		(at 285.75 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77ef224a-bcb1-4179-8966-a95767f2067a")
-	)
-	(junction
-		(at 303.53 293.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "787d38b6-ddb8-4aff-8d9e-66ccdabc4d25")
-	)
-	(junction
 		(at 121.92 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "791f552a-b9c2-4925-8b28-af9dd27cbeda")
-	)
-	(junction
-		(at 85.09 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "793a16f2-12b5-4eb1-a6b1-04df0de85cbd")
 	)
 	(junction
 		(at 118.11 270.51)
@@ -15758,6 +15462,12 @@
 		(uuid "821446ce-526e-4191-bf56-caecd1f23fa8")
 	)
 	(junction
+		(at 327.66 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82fdb1c5-0b2f-42d1-a7fc-8713007baef2")
+	)
+	(junction
 		(at 107.95 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15800,10 +15510,10 @@
 		(uuid "89040273-c3f7-421c-aa00-554720b35820")
 	)
 	(junction
-		(at 54.61 171.45)
+		(at 289.56 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8aafc4e3-69de-4239-a02f-dd0f259cec1c")
+		(uuid "89e41230-5dac-46c6-b138-1930d9cbda2e")
 	)
 	(junction
 		(at 434.34 157.48)
@@ -15840,6 +15550,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9083b012-24f7-467b-b0db-9e4baa253970")
+	)
+	(junction
+		(at 285.75 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "925e6a07-d684-4d3a-9507-451d6dd5aebc")
 	)
 	(junction
 		(at 354.33 510.54)
@@ -15884,6 +15600,12 @@
 		(uuid "a2335b9b-7bff-4bda-bb35-f8d0560fc978")
 	)
 	(junction
+		(at 101.6 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2b91a98-a6c5-4520-9fdb-c645b3e44d95")
+	)
+	(junction
 		(at 161.29 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15900,12 +15622,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a541e364-88ac-40b1-bb7f-c471b735f892")
-	)
-	(junction
-		(at 285.75 293.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a74ef2fe-5963-4724-badc-1c2b8507ed19")
 	)
 	(junction
 		(at 384.81 48.26)
@@ -15944,12 +15660,6 @@
 		(uuid "b849aef0-6fb5-49a4-b325-72847123f1b9")
 	)
 	(junction
-		(at 102.87 306.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8ba305a-7600-4a93-a930-b67f4e0a4849")
-	)
-	(junction
 		(at 87.63 408.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15986,6 +15696,12 @@
 		(uuid "c3881279-f4d1-44eb-a438-584b1accdee8")
 	)
 	(junction
+		(at 303.53 320.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6225c79-94a5-41d1-95e3-004aed000a04")
+	)
+	(junction
 		(at 551.18 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15998,16 +15714,10 @@
 		(uuid "c767381c-33b5-44b2-9176-2ff5597ed8d7")
 	)
 	(junction
-		(at 303.53 181.61)
+		(at 127 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cad3bf4e-15d9-45bc-932b-8cddee7f4ac0")
-	)
-	(junction
-		(at 102.87 293.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd97c35f-eba6-46e5-ab97-d4ebec55fed2")
+		(uuid "cb1c6b22-084b-4981-81ad-93b0acdce831")
 	)
 	(junction
 		(at 308.61 158.75)
@@ -16034,12 +15744,6 @@
 		(uuid "d181b889-7bb7-4320-8a09-fe1abc4fc4d7")
 	)
 	(junction
-		(at 85.09 293.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d365262f-1581-456a-a311-1ee8388717ad")
-	)
-	(junction
 		(at 265.43 377.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16056,12 +15760,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d81feb4a-396d-4843-abdf-fcae806445a1")
-	)
-	(junction
-		(at 303.53 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8fa83fd-f3fb-46d1-89d0-d1d2b084adfd")
 	)
 	(junction
 		(at 299.72 270.51)
@@ -16094,12 +15792,6 @@
 		(uuid "ddafd9a8-dac2-48ed-bf95-807ab1505f53")
 	)
 	(junction
-		(at 303.53 320.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfc3509c-44e5-413a-b630-82ebefabd20c")
-	)
-	(junction
 		(at 120.65 364.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16110,12 +15802,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1c22bf1-d6e0-4e4d-aa43-4ee299de93cd")
-	)
-	(junction
-		(at 303.53 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4f1cfd1-409b-46bf-be98-d185542f1d95")
 	)
 	(junction
 		(at 64.77 60.96)
@@ -16134,12 +15820,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e78d3bbc-fb0f-4024-9fdb-2a870ed62016")
-	)
-	(junction
-		(at 102.87 320.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8022b7e-d114-4f60-9acd-ff767564f147")
 	)
 	(junction
 		(at 144.78 38.1)
@@ -16178,6 +15858,12 @@
 		(uuid "f1222d7b-07e2-439e-8f76-ca5c0bc7b594")
 	)
 	(junction
+		(at 139.7 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f53d8fb9-1202-4816-a3b3-61428dd69f10")
+	)
+	(junction
 		(at 144.78 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16194,12 +15880,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd00e769-a71c-4f6a-b84d-1dcf62e25494")
-	)
-	(junction
-		(at 54.61 283.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdaa8a23-c493-43d1-a550-a1f35bc22304")
 	)
 	(no_connect
 		(at 189.23 417.83)
@@ -16461,6 +16141,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 138.43) (xy 297.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c14d9b-786a-4429-9351-61d3232724ee")
+	)
+	(wire
+		(pts
 			(xy 299.72 156.21) (xy 299.72 158.75)
 		)
 		(stroke
@@ -16551,6 +16241,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 158.75) (xy 353.06 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b21b4d3-428b-4ccb-b2d3-4e5afd013e8d")
+	)
+	(wire
+		(pts
 			(xy 85.09 275.59) (xy 100.33 275.59)
 		)
 		(stroke
@@ -16571,7 +16271,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 270.51) (xy 353.06 270.51)
+			(xy 322.58 270.51) (xy 339.09 270.51)
 		)
 		(stroke
 			(width 0)
@@ -16641,6 +16341,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 259.08) (xy 295.91 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10aab9d5-91cf-41d7-93c2-568c5d2eeee6")
+	)
+	(wire
+		(pts
 			(xy 72.39 525.78) (xy 72.39 518.16)
 		)
 		(stroke
@@ -16648,16 +16358,6 @@
 			(type default)
 		)
 		(uuid "10de3490-2845-411c-b31d-7aad7fe40c8f")
-	)
-	(wire
-		(pts
-			(xy 102.87 320.04) (xy 111.76 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11164c3d-3194-4bed-8267-658d364c72a2")
 	)
 	(wire
 		(pts
@@ -16781,7 +16481,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 173.99) (xy 87.63 173.99)
+			(xy 85.09 173.99) (xy 92.71 173.99)
 		)
 		(stroke
 			(width 0)
@@ -16831,7 +16531,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 166.37) (xy 298.45 166.37)
+			(xy 285.75 168.91) (xy 298.45 168.91)
 		)
 		(stroke
 			(width 0)
@@ -16931,6 +16631,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 267.97) (xy 87.63 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b370a5c-c7e7-4bd2-b7fb-39e31f6b95b4")
+	)
+	(wire
+		(pts
 			(xy 222.25 208.28) (xy 236.22 208.28)
 		)
 		(stroke
@@ -16948,6 +16658,16 @@
 			(type default)
 		)
 		(uuid "1b8c70c5-77dc-4735-8c66-f243eb4109ff")
+	)
+	(wire
+		(pts
+			(xy 285.75 181.61) (xy 285.75 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1aac56-c81d-466d-912c-ed93460c1238")
 	)
 	(wire
 		(pts
@@ -16978,26 +16698,6 @@
 			(type default)
 		)
 		(uuid "1d70cd9a-7c95-42b8-866d-bbc4be02d448")
-	)
-	(wire
-		(pts
-			(xy 300.99 320.04) (xy 303.53 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd54f4f-5fd7-4070-9cf0-1a095b50d8fc")
-	)
-	(wire
-		(pts
-			(xy 288.29 285.75) (xy 288.29 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e5bc006-abfc-4f98-8909-978a27fee2c7")
 	)
 	(wire
 		(pts
@@ -17121,16 +16821,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 181.61) (xy 285.75 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "250790c5-cc74-423b-941b-9d7bc31a9e64")
-	)
-	(wire
-		(pts
 			(xy 93.98 364.49) (xy 93.98 379.73)
 		)
 		(stroke
@@ -17168,16 +16858,6 @@
 			(type default)
 		)
 		(uuid "27d10fd4-e928-4b12-b1ef-4781cb2a2809")
-	)
-	(wire
-		(pts
-			(xy 255.27 191.77) (xy 285.75 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d3a9d6-eb4f-4995-b35c-cceaea7e7101")
 	)
 	(wire
 		(pts
@@ -17248,6 +16928,16 @@
 			(type default)
 		)
 		(uuid "2acf2fed-bc86-49c7-963a-3ed398db4d8d")
+	)
+	(wire
+		(pts
+			(xy 339.09 181.61) (xy 327.66 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce164e5-0df4-4a97-bd7a-7ceb68d51de7")
 	)
 	(wire
 		(pts
@@ -17331,7 +17021,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 278.13) (xy 298.45 290.83)
+			(xy 298.45 280.67) (xy 298.45 290.83)
 		)
 		(stroke
 			(width 0)
@@ -17341,7 +17031,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 293.37) (xy 102.87 293.37)
+			(xy 93.98 259.08) (xy 93.98 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30aee43f-1acd-4a37-a263-b61607802213")
+	)
+	(wire
+		(pts
+			(xy 85.09 293.37) (xy 127 293.37)
 		)
 		(stroke
 			(width 0)
@@ -17451,6 +17151,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 270.51) (xy 353.06 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3476f910-83db-417e-af54-37d18edd8cd8")
+	)
+	(wire
+		(pts
 			(xy 436.88 92.71) (xy 439.42 92.71)
 		)
 		(stroke
@@ -17471,7 +17181,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 158.75) (xy 152.4 158.75)
+			(xy 121.92 158.75) (xy 139.7 158.75)
 		)
 		(stroke
 			(width 0)
@@ -17521,23 +17231,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 152.4) (xy 86.36 156.21)
+			(xy 86.36 140.97) (xy 86.36 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "37d34fc6-3f9c-4357-a7e4-f032761aa80b")
-	)
-	(wire
-		(pts
-			(xy 255.27 283.21) (xy 255.27 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38438e7e-a4fc-4f07-8c72-d52257473368")
 	)
 	(wire
 		(pts
@@ -17561,7 +17261,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 166.37) (xy 97.79 166.37)
+			(xy 139.7 285.75) (xy 139.7 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39537d2c-3a92-4510-9cb2-28d3cf7b9c90")
+	)
+	(wire
+		(pts
+			(xy 85.09 168.91) (xy 97.79 168.91)
 		)
 		(stroke
 			(width 0)
@@ -17591,6 +17301,36 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 176.53) (xy 139.7 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a597736-6b5f-466e-9478-46b96cca2da4")
+	)
+	(wire
+		(pts
+			(xy 101.6 208.28) (xy 111.76 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb5b7fc-fcda-4f87-b48f-74bcb894c803")
+	)
+	(wire
+		(pts
+			(xy 86.36 140.97) (xy 92.71 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bcaf2ed-a78a-431c-84cd-45a52af8553f")
+	)
+	(wire
+		(pts
 			(xy 114.3 417.83) (xy 127 417.83)
 		)
 		(stroke
@@ -17598,16 +17338,6 @@
 			(type default)
 		)
 		(uuid "3beb2838-95ce-416e-a28a-47e3bf38035e")
-	)
-	(wire
-		(pts
-			(xy 303.53 306.07) (xy 303.53 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bfea638-47fb-4e1a-aaf0-178f0920ad61")
 	)
 	(wire
 		(pts
@@ -17661,16 +17391,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 208.28) (xy 312.42 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e544f8f-5a14-4e1b-8c4a-2ecd95b76b47")
-	)
-	(wire
-		(pts
 			(xy 72.39 541.02) (xy 74.93 541.02)
 		)
 		(stroke
@@ -17698,16 +17418,6 @@
 			(type default)
 		)
 		(uuid "40813ecd-aefd-4dec-9d97-1c2c7eab5073")
-	)
-	(wire
-		(pts
-			(xy 102.87 181.61) (xy 102.87 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "408f6f64-6037-44b7-83fa-0a79d8ad6c2b")
 	)
 	(wire
 		(pts
@@ -17791,13 +17501,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 181.61) (xy 85.09 181.61)
+			(xy 339.09 158.75) (xy 339.09 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4609a570-ad20-498a-af15-a750767b76b9")
+		(uuid "452c6952-e1a6-4f94-9db7-4876b201467d")
 	)
 	(wire
 		(pts
@@ -17811,17 +17521,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 171.45) (xy 54.61 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4745b802-659b-43d1-b89c-68048c0f9572")
-	)
-	(wire
-		(pts
-			(xy 97.79 278.13) (xy 97.79 290.83)
+			(xy 97.79 280.67) (xy 97.79 290.83)
 		)
 		(stroke
 			(width 0)
@@ -17888,16 +17588,6 @@
 			(type default)
 		)
 		(uuid "4dc4a91b-c37f-4e30-a664-781a31305051")
-	)
-	(wire
-		(pts
-			(xy 102.87 293.37) (xy 85.09 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e6f9c97-37ea-42c5-9511-0d60a8a17b0f")
 	)
 	(wire
 		(pts
@@ -17991,7 +17681,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 181.61) (xy 102.87 181.61)
+			(xy 85.09 181.61) (xy 127 181.61)
 		)
 		(stroke
 			(width 0)
@@ -18041,6 +17731,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 208.28) (xy 101.6 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bae2a7-6a2c-4f2b-ab18-4f63cdcfbc1f")
+	)
+	(wire
+		(pts
 			(xy 118.11 179.07) (xy 124.46 179.07)
 		)
 		(stroke
@@ -18051,6 +17751,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 320.04) (xy 303.53 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57756cd8-8d04-4a84-9df6-7035a3002ab2")
+	)
+	(wire
+		(pts
 			(xy 146.05 90.17) (xy 149.86 90.17)
 		)
 		(stroke
@@ -18058,6 +17768,16 @@
 			(type default)
 		)
 		(uuid "58aebf26-a950-4207-9bea-85593f41f5e3")
+	)
+	(wire
+		(pts
+			(xy 339.09 270.51) (xy 339.09 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59460589-2126-4491-aae9-1ee89bfd5014")
 	)
 	(wire
 		(pts
@@ -18108,16 +17828,6 @@
 			(type default)
 		)
 		(uuid "5ba3ea00-cc18-48ea-bbc2-643032246f8b")
-	)
-	(wire
-		(pts
-			(xy 285.75 293.37) (xy 285.75 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc898a0-e385-4564-b0a5-ff461888b283")
 	)
 	(wire
 		(pts
@@ -18211,26 +17921,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 168.91) (xy 294.64 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "600ecc75-efb5-4bf0-8773-b5b4f5712b53")
-	)
-	(wire
-		(pts
-			(xy 87.63 285.75) (xy 87.63 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61fe7908-b01a-4fa8-bff6-1fe69adb4160")
-	)
-	(wire
-		(pts
 			(xy 308.61 158.75) (xy 318.77 158.75)
 		)
 		(stroke
@@ -18281,16 +17971,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 171.45) (xy 255.27 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "662ab5a7-ce45-4a4e-9e23-583d9b8c9c84")
-	)
-	(wire
-		(pts
 			(xy 251.46 320.04) (xy 260.35 320.04)
 		)
 		(stroke
@@ -18331,13 +18011,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 194.31) (xy 102.87 208.28)
+			(xy 87.63 250.19) (xy 87.63 267.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "696ecb60-51c6-424f-8e3e-13478b1860ce")
+		(uuid "69803fd4-15d8-48a1-8255-2d4692cc8255")
 	)
 	(wire
 		(pts
@@ -18351,7 +18031,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 166.37) (xy 298.45 179.07)
+			(xy 298.45 168.91) (xy 298.45 179.07)
 		)
 		(stroke
 			(width 0)
@@ -18368,6 +18048,16 @@
 			(type default)
 		)
 		(uuid "69efe10b-5334-434b-b56e-eb70abab1f86")
+	)
+	(wire
+		(pts
+			(xy 139.7 181.61) (xy 127 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3de705-dc08-4ba9-b8bd-2a1baa4e938a")
 	)
 	(wire
 		(pts
@@ -18418,26 +18108,6 @@
 			(type default)
 		)
 		(uuid "6ceb0686-b94b-4736-b4a2-8810f2157c3f")
-	)
-	(wire
-		(pts
-			(xy 54.61 191.77) (xy 85.09 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d075037-48f6-49f2-a6eb-e4e59d055b69")
-	)
-	(wire
-		(pts
-			(xy 85.09 293.37) (xy 85.09 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6da4438b-d77e-4687-9312-d852ac4259a5")
 	)
 	(wire
 		(pts
@@ -18541,13 +18211,13 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 306.07) (xy 303.53 306.07)
+			(xy 297.18 148.59) (xy 297.18 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7389937d-c707-46c7-b30c-c808cef3cd7b")
+		(uuid "725e1dad-ee5d-4929-b0ec-b1c8f0851a6b")
 	)
 	(wire
 		(pts
@@ -18561,13 +18231,13 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 194.31) (xy 303.53 208.28)
+			(xy 93.98 251.46) (xy 93.98 250.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "743aca83-ec74-4d9c-801f-edd4d47d324a")
+		(uuid "746c0157-8089-4d45-9b42-bcaf87fd7a4e")
 	)
 	(wire
 		(pts
@@ -18621,7 +18291,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 320.04) (xy 312.42 320.04)
+			(xy 300.99 320.04) (xy 303.53 320.04)
 		)
 		(stroke
 			(width 0)
@@ -18711,6 +18381,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 158.75) (xy 152.4 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8f71ca-0fbf-4702-bf33-0af4da4cdd7a")
+	)
+	(wire
+		(pts
 			(xy 144.78 34.29) (xy 144.78 35.56)
 		)
 		(stroke
@@ -18738,16 +18418,6 @@
 			(type default)
 		)
 		(uuid "7d5ab792-893f-4aee-af3b-6beb4b6eb2bf")
-	)
-	(wire
-		(pts
-			(xy 285.75 156.21) (xy 289.56 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d6bac72-16f7-49b3-acd6-ca5e9dc0d1eb")
 	)
 	(wire
 		(pts
@@ -18898,16 +18568,6 @@
 			(type default)
 		)
 		(uuid "8337bd3c-84d1-407b-b20a-41b31b9c6e8e")
-	)
-	(wire
-		(pts
-			(xy 87.63 280.67) (xy 93.98 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84216447-f864-47e2-a3d6-4b1fdc84a96a")
 	)
 	(wire
 		(pts
@@ -19121,16 +18781,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 194.31) (xy 102.87 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a9904fa-ed0b-4964-aa73-fe34bcd8e21c")
-	)
-	(wire
-		(pts
 			(xy 127 262.89) (xy 127 259.08)
 		)
 		(stroke
@@ -19148,16 +18798,6 @@
 			(type default)
 		)
 		(uuid "8b07bf94-90a9-4025-a2d4-6e1b7b286e38")
-	)
-	(wire
-		(pts
-			(xy 87.63 173.99) (xy 87.63 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b37c6ca-ccdc-4329-bb3a-4a497c04a29c")
 	)
 	(wire
 		(pts
@@ -19211,7 +18851,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 278.13) (xy 298.45 278.13)
+			(xy 285.75 280.67) (xy 298.45 280.67)
 		)
 		(stroke
 			(width 0)
@@ -19661,16 +19301,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 181.61) (xy 303.53 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f4a232c-cbff-4e9f-9750-8396168ea233")
-	)
-	(wire
-		(pts
 			(xy 505.46 189.23) (xy 505.46 177.8)
 		)
 		(stroke
@@ -19711,6 +19341,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 320.04) (xy 100.33 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d56c8b-0ee6-43ed-9278-8b658b0e1033")
+	)
+	(wire
+		(pts
 			(xy 34.29 408.94) (xy 34.29 386.08)
 		)
 		(stroke
@@ -19741,13 +19381,13 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 181.61) (xy 303.53 181.61)
+			(xy 289.56 251.46) (xy 289.56 267.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a494ddeb-8e64-47c4-ab37-b84b42328440")
+		(uuid "a492c114-1593-44ff-865c-0bdc0c2fcf65")
 	)
 	(wire
 		(pts
@@ -19828,6 +19468,16 @@
 			(type default)
 		)
 		(uuid "a7f966ca-a705-49ef-be52-cfc0463353e2")
+	)
+	(wire
+		(pts
+			(xy 139.7 158.75) (xy 139.7 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8418afa-2900-4678-b1d9-e4930a4d201e")
 	)
 	(wire
 		(pts
@@ -19921,16 +19571,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 320.04) (xy 102.87 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca2b479-3144-4ddc-a9c3-698ae079b5ed")
-	)
-	(wire
-		(pts
 			(xy 50.8 283.21) (xy 50.8 320.04)
 		)
 		(stroke
@@ -19938,16 +19578,6 @@
 			(type default)
 		)
 		(uuid "ad2ccce7-4022-4e90-806b-4a259f775cd8")
-	)
-	(wire
-		(pts
-			(xy 288.29 280.67) (xy 294.64 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad948bef-60ca-4836-94df-4330d9b86ab1")
 	)
 	(wire
 		(pts
@@ -19971,13 +19601,23 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 173.99) (xy 288.29 168.91)
+			(xy 339.09 293.37) (xy 327.66 293.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae1d1551-3c1f-42dc-ad52-81fd8de62555")
+		(uuid "adbcf187-7639-4d35-932b-bc8bd8eb4987")
+	)
+	(wire
+		(pts
+			(xy 303.53 208.28) (xy 303.53 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf66d2e-337e-4dd2-9118-4940faa18212")
 	)
 	(wire
 		(pts
@@ -20008,16 +19648,6 @@
 			(type default)
 		)
 		(uuid "aef59a22-f8ab-4fd4-b7a5-b6abba072cac")
-	)
-	(wire
-		(pts
-			(xy 87.63 168.91) (xy 93.98 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afdcc314-984f-4979-930b-6b42b08782d6")
 	)
 	(wire
 		(pts
@@ -20121,7 +19751,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 278.13) (xy 97.79 278.13)
+			(xy 85.09 280.67) (xy 97.79 280.67)
 		)
 		(stroke
 			(width 0)
@@ -20161,7 +19791,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 166.37) (xy 97.79 179.07)
+			(xy 97.79 168.91) (xy 97.79 179.07)
 		)
 		(stroke
 			(width 0)
@@ -20191,7 +19821,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 181.61) (xy 285.75 181.61)
+			(xy 285.75 181.61) (xy 327.66 181.61)
 		)
 		(stroke
 			(width 0)
@@ -20218,16 +19848,6 @@
 			(type default)
 		)
 		(uuid "b6fb1a00-762c-4c48-9e37-53cdf65d412b")
-	)
-	(wire
-		(pts
-			(xy 85.09 267.97) (xy 88.9 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b725f926-6243-4592-a2cd-9db38823cf90")
 	)
 	(wire
 		(pts
@@ -20261,13 +19881,43 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 270.51) (xy 152.4 270.51)
+			(xy 289.56 251.46) (xy 295.91 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1fdb52-4b21-412c-ab5a-1cca43de5aec")
+	)
+	(wire
+		(pts
+			(xy 121.92 270.51) (xy 139.7 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ba85ccbe-f952-4b6f-8510-847007a185aa")
+	)
+	(wire
+		(pts
+			(xy 288.29 156.21) (xy 288.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcaa3ee5-4611-4d82-bf2e-1e2bc54b150d")
+	)
+	(wire
+		(pts
+			(xy 297.18 138.43) (xy 297.18 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc137cf-bc7c-4bdb-a0d0-a2eed01c39aa")
 	)
 	(wire
 		(pts
@@ -20361,26 +20011,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 283.21) (xy 54.61 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1cfe9cb-509b-4d97-9eee-d797e5ba4e5e")
-	)
-	(wire
-		(pts
-			(xy 100.33 208.28) (xy 102.87 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1d2fe0d-c5c2-4fb9-a3de-e49ce2b38d00")
-	)
-	(wire
-		(pts
 			(xy 322.58 270.51) (xy 322.58 259.08)
 		)
 		(stroke
@@ -20398,6 +20028,16 @@
 			(type default)
 		)
 		(uuid "c3256b2e-e23a-43a1-8be4-662aff5c6b61")
+	)
+	(wire
+		(pts
+			(xy 339.09 175.26) (xy 339.09 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c352ef67-cc7f-459c-8cb6-103eb2e414ae")
 	)
 	(wire
 		(pts
@@ -20551,6 +20191,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 285.75) (xy 339.09 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c835398a-9671-487b-9ff7-8cd195b62cd7")
+	)
+	(wire
+		(pts
 			(xy 453.39 204.47) (xy 453.39 205.74)
 		)
 		(stroke
@@ -20581,17 +20231,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 306.07) (xy 102.87 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca816aef-5e65-4859-afd6-c87b757f926b")
-	)
-	(wire
-		(pts
-			(xy 102.87 208.28) (xy 111.76 208.28)
+			(xy 100.33 208.28) (xy 101.6 208.28)
 		)
 		(stroke
 			(width 0)
@@ -20651,13 +20291,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 303.53) (xy 285.75 303.53)
+			(xy 100.33 320.04) (xy 111.76 320.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cee509e1-27a9-47ba-8412-b08d69733b44")
+		(uuid "ce61d53e-727a-49bc-aa8a-a40bef77a06e")
 	)
 	(wire
 		(pts
@@ -20711,6 +20351,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 293.37) (xy 85.09 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d133709f-8748-4146-9c0e-e26979a2ff42")
+	)
+	(wire
+		(pts
 			(xy 21.59 99.06) (xy 29.21 99.06)
 		)
 		(stroke
@@ -20731,7 +20381,27 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 285.75) (xy 288.29 285.75)
+			(xy 303.53 320.04) (xy 312.42 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e8cdb6-f662-40ee-8c5e-50086b065214")
+	)
+	(wire
+		(pts
+			(xy 139.7 270.51) (xy 139.7 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f5da1b-c1a5-4415-af08-6a5c442b7842")
+	)
+	(wire
+		(pts
+			(xy 285.75 285.75) (xy 294.64 285.75)
 		)
 		(stroke
 			(width 0)
@@ -20771,16 +20441,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 181.61) (xy 85.09 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d53727e6-c33e-4fbd-a97a-37c17dc11c1e")
-	)
-	(wire
-		(pts
 			(xy 86.36 156.21) (xy 85.09 156.21)
 		)
 		(stroke
@@ -20788,16 +20448,6 @@
 			(type default)
 		)
 		(uuid "d56a49f0-ec3d-4ead-81bf-d8e4cf640c7a")
-	)
-	(wire
-		(pts
-			(xy 303.53 293.37) (xy 303.53 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d580c065-9a7f-480f-b9a4-9ae68225e734")
 	)
 	(wire
 		(pts
@@ -20811,6 +20461,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 270.51) (xy 152.4 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78abb1c-98ac-4522-8ec7-f9e0bcc5f882")
+	)
+	(wire
+		(pts
 			(xy 384.81 97.79) (xy 384.81 109.22)
 		)
 		(stroke
@@ -20818,6 +20478,16 @@
 			(type default)
 		)
 		(uuid "d78f8bf5-512e-4671-a1fc-931ebe57de2f")
+	)
+	(wire
+		(pts
+			(xy 92.71 148.59) (xy 92.71 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b7d183-16b5-4188-9bb5-b2d8de2688f9")
 	)
 	(wire
 		(pts
@@ -20881,23 +20551,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 285.75) (xy 87.63 285.75)
+			(xy 85.09 285.75) (xy 92.71 285.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "daa23f7b-e1df-4ea9-8e0b-4138d8679cbc")
-	)
-	(wire
-		(pts
-			(xy 306.07 194.31) (xy 303.53 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dacd6c03-f74e-4e6c-9d94-298ca0297ca6")
 	)
 	(wire
 		(pts
@@ -20918,16 +20578,6 @@
 			(type default)
 		)
 		(uuid "db27ce2a-b583-4fd9-b2fd-11d721a77b26")
-	)
-	(wire
-		(pts
-			(xy 102.87 293.37) (xy 102.87 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db433aeb-36fb-4ba3-bce1-6d8be433607c")
 	)
 	(wire
 		(pts
@@ -21091,6 +20741,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 250.19) (xy 87.63 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e491e776-0413-4890-acc1-e0c9813669e7")
+	)
+	(wire
+		(pts
 			(xy 39.37 99.06) (xy 54.61 99.06)
 		)
 		(stroke
@@ -21111,6 +20771,36 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 293.37) (xy 127 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f1a3c1-7a20-4c0f-b6fb-f61d2e839772")
+	)
+	(wire
+		(pts
+			(xy 285.75 156.21) (xy 288.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6006ca3-2ff4-4d4d-bc1b-8c58fa762067")
+	)
+	(wire
+		(pts
+			(xy 285.75 293.37) (xy 285.75 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a21e1b-5a17-4f46-8fdf-4476c019cee0")
+	)
+	(wire
+		(pts
 			(xy 303.53 31.75) (xy 309.88 31.75)
 		)
 		(stroke
@@ -21128,16 +20818,6 @@
 			(type default)
 		)
 		(uuid "e944ec21-f3d3-409a-9157-5d3267ced6af")
-	)
-	(wire
-		(pts
-			(xy 102.87 306.07) (xy 102.87 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9afb8ca-dd06-46d9-8301-5f679929dc59")
 	)
 	(wire
 		(pts
@@ -21271,7 +20951,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 173.99) (xy 288.29 173.99)
+			(xy 285.75 173.99) (xy 294.64 173.99)
 		)
 		(stroke
 			(width 0)
@@ -21338,6 +21018,16 @@
 			(type default)
 		)
 		(uuid "f588e9ce-9f31-4b7d-9303-5d05727c158d")
+	)
+	(wire
+		(pts
+			(xy 303.53 208.28) (xy 312.42 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5faa1fa-20f2-4c54-ab83-d9945388b18f")
 	)
 	(wire
 		(pts
@@ -21421,7 +21111,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 293.37) (xy 285.75 293.37)
+			(xy 285.75 293.37) (xy 327.66 293.37)
 		)
 		(stroke
 			(width 0)
@@ -21521,17 +21211,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 303.53) (xy 85.09 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fceb92a8-628d-4823-ae57-71cb58f63789")
-	)
-	(wire
-		(pts
-			(xy 322.58 158.75) (xy 353.06 158.75)
+			(xy 322.58 158.75) (xy 339.09 158.75)
 		)
 		(stroke
 			(width 0)
@@ -21548,16 +21228,6 @@
 			(type default)
 		)
 		(uuid "fe7feb40-a11d-4722-ba2e-cb5d186c84c6")
-	)
-	(wire
-		(pts
-			(xy 327.66 293.37) (xy 303.53 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fea80243-1ba4-48a0-9de8-ddd1a7b48cd9")
 	)
 	(wire
 		(pts
@@ -21588,6 +21258,16 @@
 			(type default)
 		)
 		(uuid "ffd18dd5-ac41-4e78-893f-1b730c0d6ede")
+	)
+	(wire
+		(pts
+			(xy 85.09 181.61) (xy 85.09 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe0c563-ac5c-4bcf-a4aa-257bfdc3364d")
 	)
 	(label "RGB_R"
 		(at 537.21 95.25 0)
@@ -21670,7 +21350,7 @@
 		(uuid "131ce956-ef8f-4b20-8792-01b4ad09327b")
 	)
 	(label "ISO_SDA_3"
-		(at 285.75 166.37 0)
+		(at 285.75 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21720,7 +21400,7 @@
 		(uuid "1c95fa97-07b2-41b4-9e3a-bb7fece51dff")
 	)
 	(label "ISO_SDA_1"
-		(at 85.09 166.37 0)
+		(at 85.09 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21780,7 +21460,7 @@
 		(uuid "233b1a4e-883a-48e7-a7c3-98dc75a962f2")
 	)
 	(label "ISO_SDA_4"
-		(at 285.75 278.13 0)
+		(at 285.75 280.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22139,16 +21819,6 @@
 		)
 		(uuid "5a6cd492-b1eb-4a7f-9ea3-bf06297136dc")
 	)
-	(label "ISO_GND_2"
-		(at 105.41 306.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b852c13-7856-4480-828d-1ecce0fd3139")
-	)
 	(label "USB_RTS"
 		(at 354.33 453.39 0)
 		(effects
@@ -22460,7 +22130,7 @@
 		(uuid "a05b55dc-4f96-469b-83c0-2ca5c5c4df62")
 	)
 	(label "ISO_SDA_2"
-		(at 85.09 278.13 0)
+		(at 85.09 280.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22719,16 +22389,6 @@
 		)
 		(uuid "cdf1886e-4852-4d48-a02f-8f8ea739fb48")
 	)
-	(label "ISO_GND_4"
-		(at 306.07 306.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf5434a0-1753-484b-8a60-815fbb6a44f2")
-	)
 	(label "IO2"
 		(at 506.73 64.77 180)
 		(effects
@@ -22879,16 +22539,6 @@
 		)
 		(uuid "f0f2178a-c85f-487e-9192-4a08f65d946b")
 	)
-	(label "ISO_GND_3"
-		(at 306.07 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f161b61d-ff7e-4371-b820-895934ba755b")
-	)
 	(label "RGB_B"
 		(at 537.21 82.55 0)
 		(effects
@@ -22948,16 +22598,6 @@
 			(justify left bottom)
 		)
 		(uuid "fb12f793-4db1-4118-b61e-21edb722aba7")
-	)
-	(label "ISO_GND_1"
-		(at 105.41 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe09ac24-0053-4773-84b4-b6f05f5ea19b")
 	)
 	(label "IO48"
 		(at 354.33 502.92 0)
@@ -23396,6 +23036,870 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WaterNet26 Library:CL21B104KACNNNC")
+		(at 295.91 256.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0375e39f-1699-40d2-bd4a-b43ec948e0bc")
+		(property "Reference" "C75"
+			(at 289.814 257.048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 25V"
+			(at 292.608 260.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WaterNet26 Footprints:CAPC2012X95N"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=eda"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Samsung"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=snap"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_min" "1.15"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_min" "1.9"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "2.0"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_max" "1.35"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_max" "0.7"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "0.95"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_max" "2.1"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_nom" "0.95"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_max" "0.7"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_min" "0.95"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CL21B104KACNNNC"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_nom" "1.25"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 295.91 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 295.91 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 295.91 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 295.91 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 295.91 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 295.91 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "75e96bac-5131-49ff-a7f4-cf38ec9ffc21")
+		)
+		(pin "1"
+			(uuid "ecb6903f-2119-4def-b99a-de7d5a10695a")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WaterNet26 Library:CL21B104KACNNNC")
+		(at 339.09 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03d3cab2-d00a-4b48-9ce5-e85791d83fe4")
+		(property "Reference" "C77"
+			(at 332.994 173.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 25V"
+			(at 335.788 176.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WaterNet26 Footprints:CAPC2012X95N"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=eda"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Samsung"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=snap"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_min" "1.15"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_min" "1.9"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "2.0"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_max" "1.35"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_max" "0.7"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "0.95"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_max" "2.1"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_nom" "0.95"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_max" "0.7"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_min" "0.95"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CL21B104KACNNNC"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_nom" "1.25"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 339.09 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 339.09 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 339.09 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 339.09 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 339.09 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 339.09 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "872f5b9d-1150-4232-afb4-24d3f3142273")
+		)
+		(pin "1"
+			(uuid "c3f9d5e9-e467-4318-a539-1365022af19e")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -24332,7 +24836,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 294.64 168.91 0)
+		(at 294.64 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24343,7 +24847,7 @@
 		(fields_autoplaced yes)
 		(uuid "06cb4d39-2ba4-4280-8de3-f4d65d870b3c")
 		(property "Reference" "#PWR049"
-			(at 294.64 175.26 0)
+			(at 294.64 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24354,7 +24858,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 294.64 173.99 0)
+			(at 294.64 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24364,7 +24868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 168.91 0)
+			(at 294.64 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24375,7 +24879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 168.91 0)
+			(at 294.64 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24386,7 +24890,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 294.64 168.91 0)
+			(at 294.64 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26589,6 +27093,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 285.75 298.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1383432c-a459-4d2c-8c58-3ea5b1e9b54e")
+		(property "Reference" "#PWR079"
+			(at 285.75 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISO_GND_4"
+			(at 285.75 303.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 285.75 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3918ca76-0658-4244-a115-12837674f301")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WaterNet26 Library:CL10C180JB81PNC")
 		(at 265.43 383.54 90)
 		(unit 1)
@@ -27966,6 +28548,85 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 288.29 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2649cc41-d700-49a7-92f4-5a63d554f85b")
+		(property "Reference" "#PWR048"
+			(at 288.29 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_S"
+			(at 290.83 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 288.29 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc4d8055-3c08-4c61-898c-a03d890ebaa2")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -29430,6 +30091,307 @@
 		)
 	)
 	(symbol
+		(lib_name "MAX14933ASE_T_4")
+		(lib_id "WaterNet26 Library:MAX14933ASE_T")
+		(at 69.85 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d72f3a1-5dca-47a0-9e45-db9c7772c20b")
+		(property "Reference" "U10"
+			(at 69.85 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX14933ASE_T"
+			(at 69.85 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MAX14933ASE_T:SOIC127P600X175-16N"
+			(at 67.564 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
+			(at 69.342 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 69.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "SOIC-16 Maxim"
+			(at 70.104 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 69.088 178.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOIC-16 Maxim"
+			(at 69.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
+			(at 68.834 179.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 70.104 175.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
+			(at 68.326 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MAX14933ASE+T"
+			(at 69.596 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 69.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 69.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
+			(at 70.358 173.736 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 69.85 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 69.85 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 69.85 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 69.85 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 69.85 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "88b95b77-0ac0-49ee-a1f9-f6c6c173fe27")
+		)
+		(pin "2"
+			(uuid "0c1a1c05-6d32-4a22-8620-8cc7aee48213")
+		)
+		(pin "1"
+			(uuid "c4d9bbb8-7e18-4400-affd-7e2e8f09bcb2")
+		)
+		(pin "15"
+			(uuid "1aa46f3f-700c-4f48-909e-fe1b3b947602")
+		)
+		(pin "16"
+			(uuid "8f784bf0-3ad7-4439-9ee5-9d0d97c8b496")
+		)
+		(pin "5"
+			(uuid "f7da39c0-301d-436f-a46d-8eaa6a4c7d5e")
+		)
+		(pin "10"
+			(uuid "ff3dafac-0a78-4eef-af86-9bf46fc91925")
+		)
+		(pin "14"
+			(uuid "3f1286cb-e1f4-4f09-aa65-3a5756a6e12a")
+		)
+		(pin "6"
+			(uuid "9a82f68c-8a4b-4f0a-ad89-dabce9845096")
+		)
+		(pin "11"
+			(uuid "662b6147-c80c-47eb-a074-e55b26e1f7b7")
+		)
+		(pin "12"
+			(uuid "a3d7a436-5946-401f-ba67-26b43c3920ab")
+		)
+		(pin "7"
+			(uuid "7a4dafee-e84c-4bac-a838-f2b2c31e8061")
+		)
+		(pin "8"
+			(uuid "17c31998-c32a-47b8-8728-a35f3e081d6f")
+		)
+		(pin "9"
+			(uuid "87e1be46-799c-4619-8745-fe6241853486")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 102.87 0)
 		(unit 1)
@@ -29502,6 +30464,84 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 86.36 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fe593a6-bbb2-4e09-a90c-e73e165652d5")
+		(property "Reference" "#PWR042"
+			(at 86.36 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_S"
+			(at 86.868 136.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 86.36 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "306f24e9-d1b2-4607-87c3-12e463a5b122")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -30745,307 +31785,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MAX14933ASE_T_3")
-		(lib_id "WaterNet26 Library:MAX14933ASE_T")
-		(at 270.51 278.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3682782e-ddb4-437c-a3f9-a0c6d2d30cd2")
-		(property "Reference" "U7"
-			(at 270.51 260.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX14933ASE_T"
-			(at 270.51 262.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WaterNet26 Footprints:SOIC127P600X175-16N"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Analog Devices"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "SOIC-16 Maxim"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PRICE" "None"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOIC-16 Maxim"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "MAX14933ASE+T"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
-			(at 270.51 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Height" ""
-			(at 270.51 278.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 270.51 278.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 270.51 278.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 270.51 278.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 270.51 278.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "7443b0c1-dc39-4acd-9602-9debfb9637b3")
-		)
-		(pin "10"
-			(uuid "4da776ee-7188-4155-ac5d-14d4db847fdb")
-		)
-		(pin "15"
-			(uuid "18581d08-fb65-4f83-9366-62417ef2bc1e")
-		)
-		(pin "5"
-			(uuid "00d25bcb-cf17-464a-a426-bd7c645dc334")
-		)
-		(pin "2"
-			(uuid "f2d5e31e-2c10-4f1f-b38c-0b9bf38566fc")
-		)
-		(pin "3"
-			(uuid "373ee30e-c43d-4cee-a3b2-a16c9f0ba40f")
-		)
-		(pin "6"
-			(uuid "550f460a-af00-4cc3-9a0b-b2a9401b7dc2")
-		)
-		(pin "8"
-			(uuid "bd42f783-fec9-4d6a-8a66-d9f6db0531e6")
-		)
-		(pin "12"
-			(uuid "a78e730b-f0cf-4b64-bd6e-edc6dcb4ee23")
-		)
-		(pin "11"
-			(uuid "d747ac00-b846-456a-9af6-89d61f5194a5")
-		)
-		(pin "16"
-			(uuid "fd583c2a-5c90-4ad2-a510-f0aafa58eea2")
-		)
-		(pin "7"
-			(uuid "1ffa0259-1d23-4e14-a8bf-3c9501ee4609")
-		)
-		(pin "1"
-			(uuid "2d29b6fb-9aef-4ad2-a8a1-c572cef63a49")
-		)
-		(pin "9"
-			(uuid "dcbe87ad-da4e-467e-8522-2f1ffe8e86ed")
-		)
-		(instances
-			(project "sensor_board"
-				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "WaterNet26 Library:TBA_1-0310")
 		(at 280.67 317.5 0)
 		(unit 1)
@@ -31920,6 +32659,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 85.09 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b7dec4d-3cc1-400d-9333-75d31d8b919c")
+		(property "Reference" "#PWR072"
+			(at 85.09 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISO_GND_1"
+			(at 85.09 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "388b7701-e907-48ae-acdf-5dcf87dc5d48")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 317.5 510.54 0)
 		(unit 1)
 		(body_style 1)
@@ -32290,6 +33107,438 @@
 		)
 	)
 	(symbol
+		(lib_id "WaterNet26 Library:CL21B104KACNNNC")
+		(at 93.98 256.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41153172-4497-4009-8c31-ef53977d7a0d")
+		(property "Reference" "C70"
+			(at 87.884 257.048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 25V"
+			(at 90.678 260.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WaterNet26 Footprints:CAPC2012X95N"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=eda"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Samsung"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=snap"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_min" "1.15"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_min" "1.9"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "2.0"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_max" "1.35"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_max" "0.7"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "0.95"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_max" "2.1"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_nom" "0.95"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_max" "0.7"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_min" "0.95"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CL21B104KACNNNC"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_nom" "1.25"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 93.98 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 93.98 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 93.98 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 93.98 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 93.98 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 93.98 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "882cb915-d698-42a8-80b5-31016c319614")
+		)
+		(pin "1"
+			(uuid "481fe195-51e1-417e-9e77-df1fba0d241f")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WaterNet26 Library:USB4120-03-C_REVA6")
 		(at 264.16 76.2 0)
 		(unit 1)
@@ -32637,6 +33886,84 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4369457a-5e5e-4344-80cc-7b815272eaba")
+		(property "Reference" "#PWR015"
+			(at 92.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "382fafe6-84ba-4de4-baf1-477ba88126fe")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -35170,7 +36497,7 @@
 				)
 			)
 		)
-		(property "Value" "+ISO_3V3_2"
+		(property "Value" "+ISO_3V3_3"
 			(at 302.26 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35228,7 +36555,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 294.64 280.67 0)
+		(at 294.64 285.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35239,7 +36566,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fc75fa0-bd47-4502-a457-7460a703183d")
 		(property "Reference" "#PWR053"
-			(at 294.64 287.02 0)
+			(at 294.64 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35250,7 +36577,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 294.64 285.75 0)
+			(at 294.64 290.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35260,7 +36587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 280.67 0)
+			(at 294.64 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35271,7 +36598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 280.67 0)
+			(at 294.64 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35282,7 +36609,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 294.64 280.67 0)
+			(at 294.64 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35736,306 +37063,6 @@
 		)
 	)
 	(symbol
-		(lib_id "WaterNet26 Library:MAX14933ASE_T")
-		(at 69.85 278.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52bc9386-89ed-4f7a-a0fb-38ae7ffa1f96")
-		(property "Reference" "U5"
-			(at 69.85 260.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX14933ASE_T"
-			(at 69.85 262.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WaterNet26 Footprints:SOIC127P600X175-16N"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Analog Devices"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "SOIC-16 Maxim"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PRICE" "None"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOIC-16 Maxim"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "MAX14933ASE+T"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
-			(at 69.85 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Height" ""
-			(at 69.85 278.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 69.85 278.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 69.85 278.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 69.85 278.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 69.85 278.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "99550b12-30c0-4005-9eda-b656011b7d8f")
-		)
-		(pin "10"
-			(uuid "2c586929-b6b3-42c6-8a98-1bba830542fb")
-		)
-		(pin "15"
-			(uuid "19db9190-3da0-4ed3-8771-846e7e6f58db")
-		)
-		(pin "5"
-			(uuid "c50750dd-9cd4-4436-9b08-41d7f060035a")
-		)
-		(pin "2"
-			(uuid "0fe7b906-dec4-44cb-9eec-b1a9cd4c132a")
-		)
-		(pin "3"
-			(uuid "bb20fb6c-87d5-4c64-96a6-37c86c7e20d6")
-		)
-		(pin "6"
-			(uuid "9d712b4f-78e8-4425-8c1b-2fe179b8f313")
-		)
-		(pin "8"
-			(uuid "97cda981-dc6b-49a0-9264-01c96bf284e6")
-		)
-		(pin "12"
-			(uuid "9b555b05-a9e0-45d2-b280-5edd04ac7f26")
-		)
-		(pin "11"
-			(uuid "9abb5773-4731-4a3b-84e5-484ace524423")
-		)
-		(pin "16"
-			(uuid "aaebc419-56a2-4591-bc14-30992036baf9")
-		)
-		(pin "7"
-			(uuid "12b94ef4-0a4f-4218-bc78-ca887df3f43f")
-		)
-		(pin "1"
-			(uuid "d8c7f703-1c51-4fa0-b395-3a79040d191c")
-		)
-		(pin "9"
-			(uuid "d7a7ba48-4b0f-43df-a295-4bfa32853809")
-		)
-		(instances
-			(project "sensor_board"
-				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 118.11 168.91 0)
 		(unit 1)
@@ -36327,84 +37354,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 88.9 267.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "541350cf-921d-4b55-8230-f1d5298d05bf")
-		(property "Reference" "#PWR044"
-			(at 88.9 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3_S_3"
-			(at 85.344 263.652 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 88.9 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c79e580-8441-47d0-9a30-433af2619206")
-		)
-		(instances
-			(project "sensor_board"
-				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 52.07 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -36553,6 +37502,84 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 87.63 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55a23242-ea51-43c6-b714-4f92e7dcc9c2")
+		(property "Reference" "#PWR044"
+			(at 87.63 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_S"
+			(at 84.074 245.872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 87.63 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f683c7d3-3347-4d75-9216-34ef788d96d7")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -36780,6 +37807,306 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WaterNet26 Library:MAX14933ASE_T")
+		(at 270.51 278.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5765f3f9-077d-496f-b4af-f7a081a067ce")
+		(property "Reference" "U6"
+			(at 270.51 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX14933ASE_T"
+			(at 270.51 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MAX14933ASE_T:SOIC127P600X175-16N"
+			(at 268.224 291.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
+			(at 270.002 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 270.51 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "SOIC-16 Maxim"
+			(at 270.764 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 269.748 290.576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOIC-16 Maxim"
+			(at 270.51 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
+			(at 269.494 291.084 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 270.764 287.528 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
+			(at 268.986 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MAX14933ASE+T"
+			(at 270.256 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 270.51 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 270.51 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
+			(at 271.018 285.496 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 270.51 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 270.51 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 270.51 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 270.51 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 270.51 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "f367b6ab-e54a-4eec-a81f-6b6949c7c756")
+		)
+		(pin "14"
+			(uuid "3c4c3e01-3cd4-45e8-9938-a4e0fb96cb5b")
+		)
+		(pin "10"
+			(uuid "e7716a66-d20c-40d5-bde9-6f3569c28d1d")
+		)
+		(pin "15"
+			(uuid "4c9992db-afd1-477e-ab05-a2eda69ad374")
+		)
+		(pin "9"
+			(uuid "ff80eed7-1d9f-4262-a911-35db442a0f8d")
+		)
+		(pin "11"
+			(uuid "6f0466ae-034e-46e0-8971-1f498c7b9513")
+		)
+		(pin "8"
+			(uuid "bd5873e2-9d6b-4422-a9d1-c97580138b69")
+		)
+		(pin "12"
+			(uuid "0a85e288-bc79-4bd9-91f9-d439635a875f")
+		)
+		(pin "2"
+			(uuid "5daaacfc-d18f-49cb-97da-d50e90fa37e3")
+		)
+		(pin "1"
+			(uuid "4fe155e1-f806-47a5-895b-86a0fcfdf365")
+		)
+		(pin "5"
+			(uuid "dfd8068c-75a9-4488-b231-62601480fb83")
+		)
+		(pin "3"
+			(uuid "72197a36-d2d6-4ad7-a759-3867b857cac8")
+		)
+		(pin "6"
+			(uuid "56aaf813-bce8-4b15-bca2-61ab8908e1b0")
+		)
+		(pin "7"
+			(uuid "e74a5a75-e2ba-4973-9ca4-50e8a9d3502f")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -38319,307 +39646,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MAX14933ASE_T_1")
-		(lib_id "WaterNet26 Library:MAX14933ASE_T")
-		(at 69.85 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5eece694-524c-420c-96e5-f7db14ba6356")
-		(property "Reference" "U1"
-			(at 69.85 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX14933ASE_T"
-			(at 69.85 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WaterNet26 Footprints:SOIC127P600X175-16N"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Analog Devices"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "SOIC-16 Maxim"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PRICE" "None"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOIC-16 Maxim"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "MAX14933ASE+T"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
-			(at 69.85 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Height" ""
-			(at 69.85 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 69.85 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 69.85 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 69.85 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 69.85 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "f9f15f9d-ffbc-42c3-8e04-01fd48659ab5")
-		)
-		(pin "10"
-			(uuid "b4b34374-9094-4112-93a6-bcad19598801")
-		)
-		(pin "15"
-			(uuid "11c7d2f3-2295-482d-b63b-927e3ca3ca52")
-		)
-		(pin "5"
-			(uuid "ae63901f-c707-4133-bbd6-3d8decfd5781")
-		)
-		(pin "2"
-			(uuid "c95c5359-95f2-4e4a-8c5f-9bcda6ddc47f")
-		)
-		(pin "3"
-			(uuid "bf407dc8-9aa9-4383-8459-f51e11a5cb8f")
-		)
-		(pin "6"
-			(uuid "5297b7a8-43f0-4b27-b11d-2667b31e6f63")
-		)
-		(pin "8"
-			(uuid "379729a8-02e2-404f-bd62-40581cee59eb")
-		)
-		(pin "12"
-			(uuid "c347a2b2-5f6f-4bee-b890-eaf1d2c40fa6")
-		)
-		(pin "11"
-			(uuid "2c31c614-031a-403a-8706-d8c42571d72f")
-		)
-		(pin "16"
-			(uuid "4fe9e249-5b4e-46ef-9a8e-eb889921ffe1")
-		)
-		(pin "7"
-			(uuid "87205096-1186-4d63-9e84-40502a532fba")
-		)
-		(pin "1"
-			(uuid "d487760e-bd1e-43f7-b78b-e4dcb56aa755")
-		)
-		(pin "9"
-			(uuid "d8791fb3-0c42-4a03-b55e-b9e416e900ba")
-		)
-		(instances
-			(project "sensor_board"
-				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 64.77 60.96 0)
 		(unit 1)
@@ -38698,6 +39724,306 @@
 		)
 	)
 	(symbol
+		(lib_id "WaterNet26 Library:MAX14933ASE_T")
+		(at 69.85 278.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "635cf213-41e7-4b44-b4a9-1ce530b9faaf")
+		(property "Reference" "U5"
+			(at 69.85 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX14933ASE_T"
+			(at 69.85 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MAX14933ASE_T:SOIC127P600X175-16N"
+			(at 67.564 291.846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
+			(at 69.342 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 69.85 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "SOIC-16 Maxim"
+			(at 70.104 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 69.088 290.576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOIC-16 Maxim"
+			(at 69.85 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
+			(at 68.834 291.084 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 70.104 287.528 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
+			(at 68.326 292.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MAX14933ASE+T"
+			(at 69.596 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 69.85 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 69.85 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
+			(at 70.358 285.496 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 69.85 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 69.85 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 69.85 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 69.85 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 69.85 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "d66fb3cd-af56-4eb0-9f64-7597a4d906dc")
+		)
+		(pin "2"
+			(uuid "6569694f-f5fa-4b6e-b8c7-8ae6437eaa68")
+		)
+		(pin "5"
+			(uuid "47713de1-926b-40e3-b2d9-5447e4d504e9")
+		)
+		(pin "3"
+			(uuid "228777b6-b09f-4b3f-a58e-7ffa83698593")
+		)
+		(pin "12"
+			(uuid "e35b2fee-7b39-493f-bb7d-60c61626b9e1")
+		)
+		(pin "14"
+			(uuid "faab1eaa-1ffe-45eb-ad97-f814d4d14b11")
+		)
+		(pin "16"
+			(uuid "918dc5f9-95ae-4b80-8729-1d8ae177db68")
+		)
+		(pin "15"
+			(uuid "fdb383fb-feb5-45e1-a530-7a98f01e616e")
+		)
+		(pin "10"
+			(uuid "31df856f-547c-4218-80c8-4ac9e18c76e4")
+		)
+		(pin "9"
+			(uuid "fb7c7dd5-eeaa-4c01-b2ae-431f0276fe2f")
+		)
+		(pin "8"
+			(uuid "b97738ce-4ca9-4d64-94f4-f0ea98278b12")
+		)
+		(pin "7"
+			(uuid "581ca427-3c14-478a-8775-efdb1584f6ee")
+		)
+		(pin "11"
+			(uuid "4a605bb2-ee40-4ca2-872e-84b42734dfbf")
+		)
+		(pin "1"
+			(uuid "6ba14314-a79e-461a-afc6-76ff2975e1cb")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 21.59 198.12 0)
 		(unit 1)
@@ -38770,6 +40096,438 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WaterNet26 Library:CL21B104KACNNNC")
+		(at 297.18 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63e9b66c-61f4-44e2-8b04-edc5afbe499c")
+		(property "Reference" "C74"
+			(at 291.084 146.558 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 25V"
+			(at 293.878 149.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WaterNet26 Footprints:CAPC2012X95N"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=eda"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Samsung"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=snap"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_min" "1.15"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_min" "1.9"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "2.0"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_max" "1.35"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_max" "0.7"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "0.95"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_max" "2.1"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_nom" "0.95"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_max" "0.7"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_min" "0.95"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CL21B104KACNNNC"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_nom" "1.25"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 297.18 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 297.18 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 297.18 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 297.18 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 297.18 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 297.18 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9645181b-87f9-4852-91ce-ea407cc29ccf")
+		)
+		(pin "1"
+			(uuid "d5268d92-24ca-48ce-942d-e0de33288aa7")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -39134,6 +40892,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 297.18 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6818b23a-8ca3-44a1-a002-75fea3759c86")
+		(property "Reference" "#PWR067"
+			(at 297.18 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 296.926 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 297.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c064f512-6c69-44c3-a4b8-bfff4fb103ab")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WaterNet26 Library:AP62301WU-7")
 		(at 118.11 95.25 0)
 		(unit 1)
@@ -39427,6 +41262,84 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 323.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "699d73ac-ca1d-43ea-92c0-31ca04139def")
+		(property "Reference" "#PWR077"
+			(at 100.33 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISO_GND_2"
+			(at 100.33 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 323.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a12bbbb0-6754-4e03-9afb-4b573064b060")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -40055,6 +41968,438 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WaterNet26 Library:CL21B104KACNNNC")
+		(at 139.7 173.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d8f49bb-7440-4c62-b10f-684fede4b394")
+		(property "Reference" "C73"
+			(at 133.604 174.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 25V"
+			(at 136.398 177.546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WaterNet26 Footprints:CAPC2012X95N"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=eda"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Samsung"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=snap"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_min" "1.15"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_min" "1.9"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "2.0"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_max" "1.35"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_max" "0.7"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "0.95"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_max" "2.1"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_nom" "0.95"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_max" "0.7"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_min" "0.95"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CL21B104KACNNNC"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_nom" "1.25"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 139.7 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 139.7 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 139.7 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 139.7 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 139.7 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1cdc3d4a-b20a-4c12-b91b-040a184d0c58")
+		)
+		(pin "1"
+			(uuid "19700f5c-e1d0-4dfb-b1aa-d496b1b594ba")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -40729,6 +43074,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 93.98 262.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75bc634b-15db-4543-aa0f-7b8ae526aab3")
+		(property "Reference" "#PWR014"
+			(at 93.98 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 267.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d27edf40-d4cf-4d0f-b1c3-b31418c382a4")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 537.21 110.49 0)
 		(unit 1)
 		(body_style 1)
@@ -41175,307 +43598,6 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "MAX14933ASE_T_2")
-		(lib_id "WaterNet26 Library:MAX14933ASE_T")
-		(at 270.51 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "772cd48d-2d66-423a-ac3e-8316c5a43f03")
-		(property "Reference" "U6"
-			(at 270.51 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX14933ASE_T"
-			(at 270.51 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "WaterNet26 Footprints:SOIC127P600X175-16N"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Analog Devices"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "SOIC-16 Maxim"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PRICE" "None"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "SOIC-16 Maxim"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "MAX14933ASE+T"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
-			(at 270.51 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Height" ""
-			(at 270.51 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 270.51 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 270.51 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 270.51 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 270.51 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "03431e73-e66f-4632-9eb6-103b23c547f1")
-		)
-		(pin "10"
-			(uuid "2b3745ce-871c-40cc-834a-f136a46d014a")
-		)
-		(pin "15"
-			(uuid "c5239ad4-f1e4-4937-8424-f2eebade3179")
-		)
-		(pin "5"
-			(uuid "5e6d3000-b3f1-401f-8c70-0493af72be0e")
-		)
-		(pin "2"
-			(uuid "6fde7ad9-afe5-4146-9c2d-973638ab59b3")
-		)
-		(pin "3"
-			(uuid "49cbdf66-70f5-4f41-ae4a-c3f400147510")
-		)
-		(pin "6"
-			(uuid "3b1719eb-312a-42e4-a5d9-e7380d3c51ff")
-		)
-		(pin "8"
-			(uuid "a3730e48-badb-4917-b063-245f1bd9ed4d")
-		)
-		(pin "12"
-			(uuid "c761db0a-1878-4a39-bc68-43a36f49e33d")
-		)
-		(pin "11"
-			(uuid "a10cea18-88cc-4773-9302-183f03f34f9a")
-		)
-		(pin "16"
-			(uuid "9b28e4fb-dd87-451f-a89b-d59caf10fb2d")
-		)
-		(pin "7"
-			(uuid "35b5c99b-6b99-49b3-8a78-07771da7670d")
-		)
-		(pin "1"
-			(uuid "4da9cfbe-60d3-46dc-8c2f-24c7f41da137")
-		)
-		(pin "9"
-			(uuid "c6f12864-92c7-4a3d-968c-bcb9d80019d6")
-		)
-		(instances
-			(project "sensor_board"
-				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -42541,84 +44663,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 289.56 267.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7e72ae43-8583-4ba4-b4fd-b78ae88291f1")
-		(property "Reference" "#PWR052"
-			(at 289.56 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3_S_4"
-			(at 287.274 263.652 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 289.56 267.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9867fc2-f3e2-47c9-a1f4-8587d8cb593e")
-		)
-		(instances
-			(project "sensor_board"
-				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 416.56 106.68 0)
 		(unit 1)
@@ -42838,7 +44882,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 168.91 0)
+		(at 92.71 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42849,7 +44893,7 @@
 		(fields_autoplaced yes)
 		(uuid "84266402-f2a4-4661-86c4-2334c79067bb")
 		(property "Reference" "#PWR032"
-			(at 93.98 175.26 0)
+			(at 92.71 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42860,7 +44904,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 173.99 0)
+			(at 92.71 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42870,7 +44914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 168.91 0)
+			(at 92.71 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42881,7 +44925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 168.91 0)
+			(at 92.71 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42892,7 +44936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 168.91 0)
+			(at 92.71 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44271,6 +46315,438 @@
 		)
 	)
 	(symbol
+		(lib_id "WaterNet26 Library:CL21B104KACNNNC")
+		(at 92.71 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ea4b258-e75b-4638-8f4f-e2b1ec761893")
+		(property "Reference" "C72"
+			(at 86.614 146.558 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 25V"
+			(at 89.408 149.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WaterNet26 Footprints:CAPC2012X95N"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=eda"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Samsung"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=snap"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_min" "1.15"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_min" "1.9"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "2.0"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_max" "1.35"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_max" "0.7"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "0.95"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_max" "2.1"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_nom" "0.95"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_max" "0.7"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_min" "0.95"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CL21B104KACNNNC"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_nom" "1.25"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 92.71 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 92.71 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 92.71 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 92.71 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 92.71 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c83d7024-08ee-40ce-a659-f5aee4064b43")
+		)
+		(pin "1"
+			(uuid "c56cf27f-158c-4b20-8092-7511b4a92ce9")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 222.25 309.88 0)
 		(unit 1)
@@ -44985,6 +47461,438 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WaterNet26 Library:CL21B104KACNNNC")
+		(at 339.09 283.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95e8decf-5a5e-47f6-97cf-719b5f34ff99")
+		(property "Reference" "C78"
+			(at 332.994 283.718 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 25V"
+			(at 335.788 286.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WaterNet26 Footprints:CAPC2012X95N"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" "0.2"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=eda"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Samsung"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=snap"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_min" "1.15"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_min" "1.9"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "2.0"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_max" "1.35"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_max" "0.7"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "0.95"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_max" "2.1"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_nom" "0.95"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_max" "0.7"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_min" "0.95"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CL21B104KACNNNC"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_nom" "1.25"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 339.09 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 339.09 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 339.09 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 339.09 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 339.09 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 339.09 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5505f611-7b2e-4c47-80aa-5230368f5309")
+		)
+		(pin "1"
+			(uuid "b3f899fc-5b15-4338-a5d4-957f53dd1d02")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -46055,6 +48963,84 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c65b3eb-2ef2-455f-b461-690c019e787d")
+		(property "Reference" "#PWR078"
+			(at 101.6 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISO_GND_1"
+			(at 101.6 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfc3b9f4-0e08-4239-a99c-cb6a3d6636b6")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -47196,7 +50182,7 @@
 				)
 			)
 		)
-		(property "Value" "+ISO_3V3_3"
+		(property "Value" "+ISO_3V3_2"
 			(at 101.6 266.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48187,6 +51173,84 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 295.91 260.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b581eb6c-e03c-4f0c-9d38-14f1275cc8fd")
+		(property "Reference" "#PWR071"
+			(at 295.91 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.91 265.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 295.91 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54db823c-8831-4c82-9e6f-6a170af7bc2c")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -49369,6 +52433,84 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 285.75 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8216884-b509-459e-b770-5f0c5c129743")
+		(property "Reference" "#PWR073"
+			(at 285.75 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISO_GND_3"
+			(at 285.75 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 285.75 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41864a06-a359-4306-901f-e0807aa279da")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -51273,6 +54415,307 @@
 		)
 	)
 	(symbol
+		(lib_name "MAX14933ASE_T_1")
+		(lib_id "WaterNet26 Library:MAX14933ASE_T")
+		(at 270.51 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d040f7b7-8b37-452d-bc82-6bc2503906cb")
+		(property "Reference" "U1"
+			(at 270.51 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX14933ASE_T"
+			(at 270.51 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MAX14933ASE_T:SOIC127P600X175-16N"
+			(at 268.224 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dgtl Iso 2.75kv 2ch 16soic"
+			(at 270.002 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 270.51 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "SOIC-16 Maxim"
+			(at 270.764 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 269.748 178.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOIC-16 Maxim"
+			(at 270.51 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=eda"
+			(at 269.494 179.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 270.764 175.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX14933ASE+T/Analog+Devices/view-part/?ref=snap"
+			(at 268.986 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MAX14933ASE+T"
+			(at 270.256 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 270.51 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 270.51 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Two-Channel, 2.75kVRMS I2C Isolator"
+			(at 271.018 173.736 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 270.51 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 270.51 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 270.51 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 270.51 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 270.51 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "890f6f26-668b-4490-a278-1bff7729888e")
+		)
+		(pin "10"
+			(uuid "dfa5d883-3100-4eea-b289-5bb4e121f689")
+		)
+		(pin "2"
+			(uuid "cbdc139f-cfd2-4c9f-83ad-9b495c498701")
+		)
+		(pin "7"
+			(uuid "9c2c47ee-705e-42ba-8d6c-482bce8680c5")
+		)
+		(pin "8"
+			(uuid "d0ec6b58-bb45-42e2-acd4-8f8fb8a629c4")
+		)
+		(pin "9"
+			(uuid "cdabe755-a5b8-4765-baeb-ba8a3e96bed0")
+		)
+		(pin "6"
+			(uuid "d4345813-cad2-4ab1-a1aa-d4af039a07a4")
+		)
+		(pin "3"
+			(uuid "e21b225c-3b9d-46d3-8cd1-8508eaa1678a")
+		)
+		(pin "5"
+			(uuid "804f95eb-a6f6-49b6-aab9-71709fd71f1e")
+		)
+		(pin "11"
+			(uuid "446e29d6-54ab-40fe-8e29-302faddd8e18")
+		)
+		(pin "12"
+			(uuid "883e2e6f-3623-4ecf-9230-d0bc98831c94")
+		)
+		(pin "14"
+			(uuid "6de69eac-655c-4349-8369-8b795aeb79f8")
+		)
+		(pin "15"
+			(uuid "24a741d4-5be4-4627-81c5-d3440976c090")
+		)
+		(pin "16"
+			(uuid "8bd1e843-d45b-40fe-9e88-f2278c2ec15d")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 139.7 90.17 90)
 		(unit 1)
@@ -52521,8 +55964,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 86.36 152.4 0)
+		(lib_id "WaterNet26 Library:CL21B104KACNNNC")
+		(at 139.7 283.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52530,21 +55973,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc61e3c6-a9e6-43e3-9e1a-7c5cc4010b3d")
-		(property "Reference" "#PWR042"
-			(at 86.36 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3_S_1"
-			(at 88.9 151.1299 0)
+		(uuid "d95b55a6-51eb-438a-9dee-afdb6887fc10")
+		(property "Reference" "C71"
+			(at 133.604 283.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52554,8 +55985,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 152.4 0)
+		(property "Value" "0.1uF 25V"
+			(at 136.398 286.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "WaterNet26 Footprints:CAPC2012X95N"
+			(at 139.7 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52563,10 +56005,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 152.4 0)
+			(at 139.7 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52576,8 +56019,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 86.36 152.4 0)
+		(property "Description" ""
+			(at 139.7 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52586,14 +56029,367 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "L1_min" "0.2"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=eda"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-2 Samsung"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL21B104KACNNNC/Samsung/view-part/?ref=snap"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_min" "1.15"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Samsung Electro-Mechanics"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_min" "1.9"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_nom" "2.0"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_min" "0.2"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_max" "1.35"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_max" "0.7"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_max" "0.95"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_nom" "0.5"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "D_max" "2.1"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_nom" "0.95"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L1_max" "0.7"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "A_min" "0.95"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CL21B104KACNNNC"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "E_nom" "1.25"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "L_nom" "0.5"
+			(at 139.7 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Height" ""
+			(at 139.7 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 139.7 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 139.7 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 139.7 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 139.7 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d71a5d39-df76-442c-9915-7a0485159d35")
 		)
 		(pin "1"
-			(uuid "ae8b9b54-f463-4749-b08d-e0986f0bf746")
+			(uuid "543d9bad-ab27-44b9-88e3-5e5f697bdee5")
 		)
 		(instances
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
-					(reference "#PWR042")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -52883,7 +56679,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 280.67 0)
+		(at 92.71 285.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52894,7 +56690,7 @@
 		(fields_autoplaced yes)
 		(uuid "df232099-55ac-473f-b3b8-0fae8aa9d06c")
 		(property "Reference" "#PWR045"
-			(at 93.98 287.02 0)
+			(at 92.71 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52905,7 +56701,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 285.75 0)
+			(at 92.71 290.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52915,7 +56711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 280.67 0)
+			(at 92.71 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52926,7 +56722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 280.67 0)
+			(at 92.71 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52937,7 +56733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 280.67 0)
+			(at 92.71 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54804,8 +58600,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 289.56 156.21 0)
+		(lib_id "power:GND")
+		(at 303.53 323.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -54814,9 +58610,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f6510d09-5212-4c22-b348-4b723304926b")
-		(property "Reference" "#PWR048"
-			(at 289.56 160.02 0)
+		(uuid "f8811bdb-d021-47b4-96ea-bece2c57958b")
+		(property "Reference" "#PWR080"
+			(at 303.53 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54826,19 +58622,18 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_S_1"
-			(at 292.1 154.9399 0)
+		(property "Value" "ISO_GND_4"
+			(at 303.53 328.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 156.21 0)
+			(at 303.53 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54849,7 +58644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 156.21 0)
+			(at 303.53 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54859,8 +58654,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 289.56 156.21 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 303.53 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54871,12 +58666,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "81f1ee86-9a75-4c87-a3ce-ba68ee33d698")
+			(uuid "80f414ef-23e9-4608-b5b0-b17e717d5c83")
 		)
 		(instances
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
-					(reference "#PWR048")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -55240,6 +59035,240 @@
 			(project "sensor_board"
 				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 303.53 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd167441-f29a-4857-9cd1-4ef95a9e1238")
+		(property "Reference" "#PWR074"
+			(at 303.53 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISO_GND_3"
+			(at 303.53 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 303.53 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e96d51f-0e2b-418c-81c6-ad65a4dd962f")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 289.56 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd627c01-f9e0-4999-82ad-fb7d6aa4d80e")
+		(property "Reference" "#PWR052"
+			(at 289.56 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_S"
+			(at 287.274 247.142 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 289.56 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "203d9418-a169-4ffa-910d-0d7db983b39c")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 298.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff9510db-3472-4ea2-bbc6-09c7b5d59a9a")
+		(property "Reference" "#PWR076"
+			(at 85.09 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISO_GND_2"
+			(at 85.09 303.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8735fad-4131-4f1a-8c67-d025d901357b")
+		)
+		(instances
+			(project "sensor_board"
+				(path "/380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)

@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.4,
-          "width": 2.4
+          "height": 0.59,
+          "width": 1.97
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -609,7 +609,7 @@
         },
         {
           "group_by": false,
-          "label": "Description",
+          "label": "DESCRIPTION",
           "name": "Description",
           "show": false
         },
@@ -665,12 +665,6 @@
           "group_by": false,
           "label": "Check_prices",
           "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DESCRIPTION",
-          "name": "DESCRIPTION",
           "show": false
         },
         {
@@ -976,7 +970,7 @@
         "uuid": "380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
       }
     ],
-    "used_designators": "#PWR13,D5",
+    "used_designators": "U1,U5-6,U10,C70-75,C77-78,#PWR13-15,#PWR42,#PWR44,#PWR48,#PWR52,#PWR67,#PWR71-74,#PWR76-80,D5",
     "variants": []
   },
   "sheets": [
