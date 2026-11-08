@@ -1,4 +1,5 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "WaterNet26 Library") (type "KiCad") (uri "${KIPRJMOD}/../../parts_lib/WaterNet26.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS22918TDBVRQ1") (type "KiCad") (uri "/Users/everettbrostedt/Projects/KiCad/WaterNet/parts_lib/TPS22918TDBVRQ1/TPS22918TDBVRQ1.kicad_sym") (options "") (descr ""))
 )

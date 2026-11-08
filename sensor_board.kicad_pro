@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.59,
-          "width": 1.97
+          "height": 1.8,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -167,7 +167,7 @@
         "min_track_width": 0.152,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.1,
+        "solder_mask_to_copper_clearance": 0.05,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -912,6 +912,42 @@
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage_Rating",
+          "name": "Voltage_Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power_Rating",
+          "name": "Power_Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EU_RoHS_Compliance",
+          "name": "EU_RoHS_Compliance",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -970,13 +1006,29 @@
         "uuid": "380dbfce-58ed-47ea-a57e-d1c885ddf8f7"
       }
     ],
-    "used_designators": "U1,U5-6,U10,C70-75,C77-78,#PWR13-15,#PWR42,#PWR44,#PWR48,#PWR52,#PWR67,#PWR71-74,#PWR76-80,D5",
+    "used_designators": "J2,J5-6,J9,J14-16,J19-23,J25-29,E1-2,U1,U5-7,U10-14,R3,R5-9,R12-15,R27-30,R34-36,R39-41,R44-47,R69,D5,C3,C30-32,C38-39,C42-47,C70-75,C77-86,#PWR10,#PWR13-15,#PWR17,#PWR22-24,#PWR32,#PWR35,#PWR37-39,#PWR42,#PWR44-46,#PWR48,#PWR52,#PWR61,#PWR67,#PWR70-74,#PWR76-82,#PWR87-108,PS5-8,L2",
     "variants": []
   },
   "sheets": [
     [
       "380dbfce-58ed-47ea-a57e-d1c885ddf8f7",
       "sensor_board"
+    ],
+    [
+      "ad7f75fc-7e8c-4cde-8e5e-2f5236c3bea3",
+      "atas_sensor1"
+    ],
+    [
+      "b10ffc5f-65ce-4bb5-aad4-384de6e2a68e",
+      "atas_sensor2"
+    ],
+    [
+      "aef6cbf8-0391-4cb4-9ed2-59146350b906",
+      "atas_sensor3"
+    ],
+    [
+      "f0465d60-b138-43a7-b3fa-cf316696db8c",
+      "atas_sensor4"
     ]
   ],
   "text_variables": {},

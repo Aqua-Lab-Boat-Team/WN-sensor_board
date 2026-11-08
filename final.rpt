@@ -1,0 +1,72 @@
+** Drc report for sensor_board.kicad_pcb **
+** Created on 2026-11-07T22:18:18 **
+** Report includes: Errors **
+
+** Found 3 DRC violations **
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(210.5500 mm, 107.5250 mm): Pad 1 [+3V3] of D11 on F.Cu
+    @(210.5500 mm, 108.6250 mm): Pad 4 [Net-(D11-Pad4)] of D11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(212.0500 mm, 107.5250 mm): Pad 2 [Net-(D11-Pad2)] of D11 on F.Cu
+    @(212.0500 mm, 108.6250 mm): Pad 3 [Net-(D11-Pad3)] of D11 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(161.7280 mm, 69.2740 mm): Pad CD [/SD_DET] of J1 on B.Cu
+    @(160.5280 mm, 67.9740 mm): Pad G1 [GND] of J1 on B.Cu
+
+** Found 10 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(192.6900 mm, 72.3400 mm): Track [/SEN_POW] on F.Cu, length 2.3150 mm
+    @(188.5343 mm, 83.1639 mm): Track [/SEN_POW] on B.Cu, length 0.4971 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(188.5500 mm, 101.2760 mm): Pad 1 [/MODE] of C17 on F.Cu
+    @(185.7125 mm, 101.2000 mm): Track [/MODE] on F.Cu, length 9.1000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(193.9750 mm, 93.1880 mm): Track [/MODE] on F.Cu, length 3.2173 mm
+    @(193.3250 mm, 70.8550 mm): Track [/MODE] on F.Cu, length 0.3323 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(204.2398 mm, 99.1070 mm): Pad 2 [/RGB_G] of R66 on B.Cu
+    @(209.0300 mm, 66.3200 mm): Track [/RGB_G] on F.Cu, length 16.5800 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2026 mm, 125.9774 mm): Track [/atas_sensor3/ISO_GND] on F.Cu, length 1.4001 mm
+    @(175.6246 mm, 122.5474 mm): Track [/atas_sensor3/ISO_GND] on F.Cu, length 0.9850 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.4197 mm, 58.3900 mm): Track [/LEAK_DET_S] on F.Cu, length 2.2203 mm
+    @(189.8802 mm, 104.6552 mm): Track [/LEAK_DET_S] on B.Cu, length 0.0074 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.6400 mm, 59.6600 mm): Track [/LEAK_DET_OFFBD_S] on F.Cu, length 14.4254 mm
+    @(185.5250 mm, 104.6750 mm): Pad 2 [/LEAK_DET_OFFBD_S] of R38 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.6400 mm, 67.2800 mm): Track [/RGB_B] on F.Cu, length 0.9500 mm
+    @(198.2648 mm, 99.1700 mm): Pad 1 [/RGB_B] of C68 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(177.6750 mm, 73.2900 mm): Track [/RGB_R] on F.Cu, length 0.9500 mm
+    @(206.4398 mm, 99.1700 mm): Track [/RGB_R] on B.Cu, length 2.4952 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(191.9105 mm, 79.9625 mm): Pad 5 [Net-(D5-VBUS)] of D5 on B.Cu
+    @(187.5020 mm, 80.1500 mm): Pad 1 [Net-(D5-VBUS)] of E1 on B.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
