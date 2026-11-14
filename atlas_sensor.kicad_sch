@@ -5789,10 +5789,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "56cadb03-d34a-48dc-83d2-214b5ea1a2f4")
 		(property "Reference" "R8"
-			(at 160.02 87.6299 90)
+			(at 158.242 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
